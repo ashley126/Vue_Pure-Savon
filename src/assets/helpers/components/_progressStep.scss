@@ -1,0 +1,42 @@
+.progressStep {
+  position: absolute;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%; 
+  transform: translateX(-50%);
+  @include x-small {
+    width: 100%;
+  }
+  .step {
+    font-size: 1.2rem;
+    font-family: 'EB Garamond', serif;
+    @include x-small{
+      font-size: 1.1rem;
+    }
+    &.now {
+      p {
+        color: black;
+        font-weight: 500;
+        &::after {
+          background-color: rgba($primary_color,0.8);
+        }
+      }
+    }
+    p {
+      position: relative;
+      color: gray;
+      &::after {
+        position: absolute;
+        left: 20px;
+        bottom: -10px;
+        width: 80%;
+        height: 6px;
+        background-color: rgba($primary_color,0.3);
+        content: '';
+      }
+    }
+  }
+}
+

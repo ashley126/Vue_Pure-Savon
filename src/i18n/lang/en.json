@@ -1,0 +1,115 @@
+{
+  "Navigation_bar": {
+    "goshop": "Shop",
+    "wishlist": "Wishes",
+    "wish_notice": "Drop wishes Here!",
+    "cart": "Cart",
+    "cart_notice": "Cart is empty!",
+    "total": "Total",
+    "gotoshop": "Go shopping",
+    "gocheck": "Go check out"
+  },
+  "Carousel": {
+    "slogan1": "Pure",
+    "slogan2": "Nature",
+    "slogan3": "Unique",
+    "detail1": "To Simple. Never Change.",
+    "detail2": "To Original Nature. Taste Fragrance.",
+    "detail3": "For Your Aroma. Treat Skin Better.",
+    "goshopping": "Go shopping",
+    "subscribe": "Subscribe Now! Get 20% Off"
+  },
+  "Series": {
+    "series1": "Herbs",
+    "series2": "Sweets",
+    "series3": "Fruits",
+    "series4": "Classics"
+  },
+  "Home": {
+    "feature1": "Sustainability",
+    "feature2": "100% Natural",
+    "feature3": "Fragrance Free",
+    "topsale1_title": "Milled Calendula",
+    "topsale2_title": "Lavandin Provence",
+    "topsale1_con": "Milled Calendula effectively relieve headache and improve sleep quality.Totally suitable for all type of skin.",
+    "topsale2_con": "Scent of avandin rovenceTotally increase soothing and mild and suitable for all type of skin.",
+    "topsale_goto": "More",
+    "contacts": "Have problems or feedback to our shop or our products? Feel free to contact us and leave messages. We would improve your shopping experience soon.",
+    "contactModal": "Message sent out successfully! Thank you and we would reply as soon as possible!",
+    "contactSub": "Submit"
+  },
+  "Product_detail": {
+    "bread_home": "Home",
+    "bread_store": "Store",
+    "series": "Series",
+    "howtouse_title": "How To Use",
+    "warning_title": "Precaution",
+    "howtouse": "Add water to your hands to rub and foam for body cleaning.Please keep away from high temperature when storing, and keep it in a cool place indoors to avoid deterioration.",
+    "warning": "Since the soap is made from natural materials,the color is slightly different during the saponification process and might form a layer of white substance, which are normal. If you feel unwell, stop using it and seek medical attention immediately.",
+    "notice_title": "Notice",
+    "noticesub1": "Returns & Exchange",
+    "noticesub1_con": "If an item is still in its original condition:intact protective seal, we accept returns and exchanges. If you're receiving a refund after we have received your item, it may take an additional three to five business days to process your return fully and issue your refund.",
+    "noticesub2": "Refunds",
+    "noticesub2_con": "Any refund will be issued to the account that you would be asked to provide in Email. You can exchange an item through Your Orders if your return item wasn't purchased with a promotion, the return item isn't subject to a restocking fee. Once we issue your refund, it may take additional time for your funds to be made available in your account by your financial institution.",
+    "noticesub3": "Deliveries",
+    "noticesub3_con": "All of orders are delivery cost free. Unfortunately, we are not providing international delivery. We offer guaranteed delivery on certain fast delivery speeds and select products. Tracking information isn't available from carriers online for Release-Date Delivery. You will receive the messages when your order item is arrived.",
+    "related": "Related Products"
+  },
+  "Progress_step": {
+    "step1": "01 Check Order",
+    "step2": "02 Billing Info",
+    "step3": "03 Accomplish"
+  },
+  "Checkorder": {
+    "step_title": "Order list",
+    "summary": "Total",
+    "next_btn": "Confirm",
+    "next": "Next",
+    "back_btn": "Back to Store",
+    "warning_title": "Precaution",
+    "notice_title": "Notices",
+    "notice1": "Please double check your billing information and receipt form before submitting it, the order information is unmodifiable",
+    "notice2": "Product photo displayed on various screen displays may have color difference, please use actual product colors as main product",
+    "notice3": "Unfortunately, we are not providing international delivery.",
+    "notice4": "We provide two types of payment: Cash On In-Store Pickup, Cash On Delivery",
+    "notice5": "All products will be shipped within 7 working days after the order is placed",
+    "notice6": "If an item is still in its original condition:intact protective seal, we accept returns and exchanges in 7 days."
+  },
+  "Billinginfo": {
+    "step_title": "Billing Information",
+    "summary": "Total",
+    "coupon_sub": "Submit",
+    "coupon_failed": "Invalid Coupon",
+    "form_name": "Name",
+    "form_tel": "Telephone",
+    "form_pay": "Type of Payment",
+    "pay_op1": "Cash On In-Store Pickup",
+    "pay_op2": "Cash On Delivery",
+    "form_adr": "Address",
+    "form_comment": "Comment",
+    "next_btn": "Next"
+  },
+  "Leavemodal": {
+    "notice_txt": "Order process is not finished yet, are you sure to leave?",
+    "cancel": "Cancel",
+    "leave": "Leave"
+  },
+  "Checkout": {
+    "orderInfo": "Order Information",
+    "orderDate": "Order Date",
+    "summary": "Total",
+    "name": "Name",
+    "telephone": "TelePhone",
+    "address": "Address",
+    "order_pay": "Type of Payment",
+    "order_op1": "Cash On In-Store Pickup",
+    "order_op2": "Cash On Delivery",
+    "paid_condition": "Payment Condition",
+    "paid": "Paid",
+    "not_paid": "Unpaid",
+    "go_paid": "Go pay",
+    "backtoshop": "Back to Store",
+    "checkoutModal1": "Success!",
+    "checkoutModal2": "We are working on your order!"
+  }
+}
