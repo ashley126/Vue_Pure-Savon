@@ -4,7 +4,7 @@
       <div class="container-fixed">
         <div class="row d-flex align-items-center">
           <div class="col-xs-12 contacts">
-            <span class="tel">TEL:(02)2495-0933<br>service@puresavon.com.tw</span>
+            <span class="tel">TEL:(02)2466-9378<br>service@pure-savon.com.tw</span>
           </div>
           <div class="col-xs-12 socials">
             <h6>PURE & SIMPLE</h6>
@@ -17,7 +17,7 @@
               <option value="tw" selected>繁體中文</option>
               <option value="en">English</option>
             </select>
-            <!-- <span class='copyRight'>&#169;僅個人作品練習無商業用途</span> -->
+            <!-- <span class='copyRight'>&#169;個人作品僅為練習無商業用途</span> -->
           </div>
         </div>
       </div>

@@ -97,7 +97,7 @@
           <div class="secContent">
             <h3>{{ $t("Home.topsale1_title") }}</h3>
             <p>{{ $t("Home.topsale1_con") }}</p>
-            <button type="button" @click.prevent="$router.push('/product_detail/-MJkRV4R-jT-kd_2sU-4')">{{ $t("Home.topsale_goto") }}</button>
+            <button type="button" @click.prevent="$router.push('/product_detail/-MXWyYXxvTMk0i6ptNAO')">{{ $t("Home.topsale_goto") }}</button>
           </div>
         </div>
         <div class="sec d-flex" data-aos="fade-left" data-aos-delay="100" data-aos-once="true" data-aos-easing="ease-in">
@@ -105,7 +105,7 @@
           <div class="secContent">
             <h3>{{ $t("Home.topsale2_title") }}</h3>
             <p>{{ $t("Home.topsale2_con") }}</p>
-            <button type="button" @click.prevent="$router.push('/product_detail/-MJkH4FoS31jCGQ32--c')">{{ $t("Home.topsale_goto") }}</button>
+            <button type="button" @click.prevent="$router.push('/product_detail/-MXX1jnl7OGTgYiNmOAY')">{{ $t("Home.topsale_goto") }}</button>
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@
                 <div class="form-group">
                   <ValidationProvider rules="required" v-slot="{ errors , classes }">
                     <div :class="classes">
-                      <input type="text" name="name" placeholder="您的姓名或稱呼" v-model="name">
+                      <input type="text" name="name" placeholder="您的姓名或稱呼/Your Name" v-model="name">
                       <span class="text-danger">{{ errors[0] }}</span>
                     </div>
                   </ValidationProvider>
@@ -138,7 +138,7 @@
                 <div class="form-group">
                   <ValidationProvider rules="required|email" v-slot="{ errors , classes }">
                     <div :class="classes">
-                      <input type="email" name="email" placeholder="您的電子信箱" v-model="eamil">
+                      <input type="email" name="email" placeholder="您的電子信箱/E-mail" v-model="eamil">
                       <span class="text-danger">{{ errors[0] }}</span>
                     </div>
                   </ValidationProvider>
@@ -146,7 +146,7 @@
                 <div class="form-group">
                   <ValidationProvider rules="required" v-slot="{ errors , classes }">
                     <div :class="classes">
-                      <textarea name="message" placeholder="想對我們說的話" v-model="message"></textarea>
+                      <textarea name="message" placeholder="想對我們說的話/Say somthing to us!" v-model="message"></textarea>
                       <span class="text-danger">{{ errors[0] }}</span>
                     </div>
                   </ValidationProvider>
@@ -190,17 +190,18 @@
           <div class="modal-body">
             <div class='modalContent' v-if="!subscribed">
               <p>2020週年慶！立即輸入Email，訂閱電子報，即可獲取購物優惠折扣碼喔！</p>
+              <p>Anniversary Sale~~Enter your email to get the discount code!</p>
                 <ValidationObserver v-slot="{ handleSubmit }">
                   <form @submit.prevent="handleSubmit(getCoupon)">
                     <div class="form-group">
                       <ValidationProvider rules="required|email" v-slot="{ errors , classes }">
                         <div :class="classes">
-                          <input type="email" name="c_email" placeholder="您的電子信箱" v-model="c_email" class="form-control" v-focus>
+                          <input type="email" name="c_email" placeholder="您的電子信箱/e-mail" v-model="c_email" class="form-control" v-focus>
                           <span class="text-danger">{{ errors[0] }}</span>
                         </div>
                       </ValidationProvider>
                     </div>
-                    <button type="submit" class="btn btn-secondary">訂閱</button>
+                    <button type="submit" class="btn btn-secondary">訂閱/submit</button>
                   </form>
                 </ValidationObserver>
             </div>
