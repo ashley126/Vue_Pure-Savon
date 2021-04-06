@@ -23,7 +23,7 @@ https://ashley126.github.io/Vue_Pure-Savon/#/admin/products
   - 報表分析：以圖表呈現訂單及營收狀況
 ## 主要技術
 
-* Vue Cli4
+* Vue Cli
 * VueRouter
 * Webpack
 * RWD
