@@ -3,8 +3,8 @@
 網站首頁
 https://ashley126.github.io/Vue_Pure-Savon/#/
 
-後台管理頁面
-https://ashley126.github.io/Vue_Pure-Savon/#/admin/products
+後台管理頁面 (帳號：lovemelody126@gmail.com   密碼：m626695)
+https://ashley126.github.io/Vue_Pure-Savon/#/Login
 
 ## 簡介
 以 Vue.js框架實作購物網站，功能區分為前、後台：
@@ -21,8 +21,8 @@ https://ashley126.github.io/Vue_Pure-Savon/#/admin/products
   - 訂單管理：查看訂單資訊
   - 優惠券管理：新增、修改及刪除優惠券內容
   - 報表分析：以圖表呈現訂單及營收狀況
+ 
 ## 主要技術
-
 * Vue Cli
 * VueRouter
 * Webpack
@@ -32,8 +32,8 @@ https://ashley126.github.io/Vue_Pure-Savon/#/admin/products
 * SCSS
 * LocalStorage
 * ESLint(eslint-config-standard)
-## 使用的套件
 
+## 使用套件
 * [aos](https://michalsnik.github.io/aos/)
 * [Vue-axios](https://github.com/imcvampire/vue-axios#readme)
 * [Vue-loading-overlay](https://github.com/ankurk91/vue-loading-overlay)
@@ -44,11 +44,11 @@ https://ashley126.github.io/Vue_Pure-Savon/#/admin/products
 * [Vue-i18n](https://github.com/kazupon/vue-i18n#readme)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Font](https://fonts.google.com/)
+
 ## API
-
 https://github.com/hexschool/vue-course-api-wiki/wiki
-## 前台介紹
 
+## 前台介紹
 ### 首頁
 * 中英文語言切換:於footer處選擇語言，分為繁體中文與英文（English）
 * 商品導覽、圖片輪播、聯絡窗口
@@ -70,7 +70,6 @@ https://github.com/hexschool/vue-course-api-wiki/wiki
 * 可直接刪除願望商品，及直接加入購物車
 
 ## 後台介紹
-
 ### 管理者登入
 * 管理者登入及登出
 
@@ -81,6 +80,5 @@ https://github.com/hexschool/vue-course-api-wiki/wiki
 * 報表分析：以圖表呈現訂單及營收狀況
 
 ## 聲明
-
 * 圖片來源：[Unsplash](https://unsplash.com/)
 * 本作品內之文字內容與圖片皆僅作為個人練習之用，無任何商業用途
